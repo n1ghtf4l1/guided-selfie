@@ -1,6 +1,8 @@
 # A Web-Based Guided Selfie Assistant for People with Visual Impairments
 
-<img width="1192" height="1055" alt="High-level architecture diagram of the selfie web app, showing camera and local image processing, speech services, simple guidance mode, voice control mode, backend LLM/VLM proxies with Redis key validation, and external providers (OpenRouter/Gemini and a self-hosted VLM API)." src="https://github.com/user-attachments/assets/d33c0627-a2af-4500-bc63-bf265a7bab63" />
+<p align="center">
+  <img width="50%" alt="High-level architecture diagram of the selfie web app, showing camera and local image processing, speech services, simple guidance mode, voice control mode, backend LLM/VLM proxies with Redis key validation, and external providers (OpenRouter/Gemini and a self-hosted VLM API)." src="https://github.com/user-attachments/assets/d33c0627-a2af-4500-bc63-bf265a7bab63" />
+</p>
 
 This project aims to enable users to take selfies by talking with the system using natural language. Inspired by [Understanding How People with Visual Impairments Take Selfies](https://dl.acm.org/doi/10.1145/3517428.3550372).
 
