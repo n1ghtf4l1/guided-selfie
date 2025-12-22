@@ -45,7 +45,7 @@ Example setup:
 
 - Run [llama.cpp](https://github.com/ggml-org/llama.cpp) server with a vision model on a local machine:
   ```bash
-  llama-server -hf Qwen/Qwen3-VL-2B-Instruct-GGUF --api-key "xxx"
+  llama-server -hf Qwen/Qwen3-VL-2B-Instruct-GGUF --api-key "<your-secret>"
   ```
 - Expose it via [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/)
 - Protect the endpoint with [Cloudflare Access Service Auth](https://developers.cloudflare.com/cloudflare-one/identity/service-tokens/) (hence the `CF_ACCESS_*` variables)
